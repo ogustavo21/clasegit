@@ -1,0 +1,25 @@
+para iniciar un git en una carpeta 
+git init
+
+crear un archivo nuevo
+touch readme2
+
+sincronizar con el git remote
+git remote add origin git@github.com:ogustavo21/clasegit.git
+
+guardas el archivo en el git 
+git commit -m "mi mensaje"
+
+verificas el estado del git
+git status
+
+descargas todo lo que hay en el repositorio
+git pull origin master
+
+
+subir los archivos al repositorio
+git push origin master
+
+
+
+
