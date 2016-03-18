@@ -1,3 +1,4 @@
+GIT de maste y desarrollo
 Instalar git , debes configurarlo
 
 
@@ -37,6 +38,15 @@ git pull origin master
 
 te clona el repositorio completo
 git clone  URL
+
+crear una rama para poder tener varios desarrollos
+git branch desarrollo1
+
+te cambias de rama
+git checkout desarrollo1
+
+
+
 
 
 
