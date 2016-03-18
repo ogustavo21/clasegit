@@ -8,6 +8,9 @@ git config --global user.email "ogustavo@unav.edu.mx"
 te genera una clave ssh que deveras abrir el archivo .pub que crea en la carpeta .ssh y  subir al git en el portal
 ssh-keygen
 
+creo una carpeta  y entro a  la carpeta
+mkdir  proyecto
+
 para iniciar un git en una carpeta 
 git init
 
