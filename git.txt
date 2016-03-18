@@ -1,14 +1,30 @@
+Instalar git , debes configurarlo
+
+
+debes de autentificarte como usuario de este pc y al git
+git config --global user.name "ogustavo21"
+git config --global user.email "ogustavo@unav.edu.mx"
+
+te genera una clave ssh que deveras abrir el archivo .pub que crea en la carpeta .ssh y  subir al git en el portal
+ssh-keygen
+
 para iniciar un git en una carpeta 
 git init
-
-crear un archivo nuevo
-touch readme2
 
 sincronizar con el git remote
 git remote add origin git@github.com:ogustavo21/clasegit.git
 
+crear un archivo nuevo
+touch readme2
+
+lo agregas al git local 
+git add readme2
+
 guardas el archivo en el git 
 git commit -m "mi mensaje"
+
+subir los archivos al repositorio
+git push origin master
 
 verificas el estado del git
 git status
@@ -17,8 +33,7 @@ descargas todo lo que hay en el repositorio
 git pull origin master
 
 
-subir los archivos al repositorio
-git push origin master
+
 
 
 
