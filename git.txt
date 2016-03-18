@@ -32,6 +32,11 @@ git status
 descargas todo lo que hay en el repositorio
 git pull origin master
 
+te clona el repositorio completo
+git clone  URL
+
+
+
 
 
 
