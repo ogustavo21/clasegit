@@ -3,8 +3,8 @@ Instalar git , debes configurarlo
 
 
 debes de autentificarte como usuario de este pc y al git
-git config --global user.name "ogustavo21"
-git config --global user.email "ogustavo@unav.edu.mx"
+git config --global user.name "***"
+git config --global user.email "*****"
 
 te genera una clave ssh que deveras abrir el archivo .pub que crea en la carpeta .ssh y  subir al git en el portal
 ssh-keygen
